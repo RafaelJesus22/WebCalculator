@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.b-g{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #774AC0;
+}
+
+.main{
+    height: 60%;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.main form {
+    margin-bottom: 10px;
+}
+
+.main form input {
+    height: 50px;
+    width: 190px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-left: 1px;
+
+}
+
+* :focus {
+    border: none;
+}
+
+.main .keys {
+    display: flex;
+}
+
+.keys {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.main td input{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
