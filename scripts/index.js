@@ -21,4 +21,8 @@ const Clear = () => {
 
 const backSpace = () => {
 
+    const eq = document.form.textview.value;
+
+    document.form.textview.value = eq.substring(0, eq.length-1)
+
 }
