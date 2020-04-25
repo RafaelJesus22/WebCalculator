@@ -8,6 +8,7 @@
     height: 100%;
     width: 100%;
     background-color: #774AC0;
+    /* background-color: linear-gradient(to right, #774AC0, #fff); */
 }
 
 .main{
@@ -26,23 +27,25 @@
 }
 
 .main form {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
+
+
+
+
+
 
 .main form input {
     height: 50px;
-    width: 190px;
+    width: 197px;
     font-size: 25px;
     padding-left: 10px;
     padding-right: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 1px;
 
 }
 
-* :focus {
-    border: none;
-}
 
 .main .keys {
     display: flex;
@@ -57,8 +60,7 @@
     height: 50px;
     width: 50px;
     font-size: 25px;
-    font-weight: lighter;
     margin: 2px;
     cursor: pointer;
-    border-radius: 15px;
+    border: none;
 }
