@@ -7,8 +7,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    /* background-color: #774AC0; */
-    background: linear-gradient(280deg, #190024 0%, #7779bb 35%, #774AC0 100%);
+    background: linear-gradient(280deg, #90739c 0%, #8263a5 35%, #7159c1 100%);
 }
 
 .main{
